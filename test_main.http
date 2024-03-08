@@ -1,9 +1,11 @@
 # Test your FastAPI endpoints
 
-GET http://127.0.0.1:8000/
+GET http://127.0.0.1:8000/api/repos/top100
 Accept: application/json
+
 ###
 
-GET http://127.0.0.1:8000/hello/User
+GET http://127.0.0.1:8000/api/repos/{owner}/{repo}/activity?since=2024-01-01&until=2024-08-03
 Accept: application/json
+
 ###
